@@ -5,33 +5,32 @@ date: "11/18/2021"
 output: html_document
 dataset:
   citation:
-      title: "Social Data Commons: your title here"
+      title: "Social Data Commons: Health, Behavior, Diet: Health Insurance"
       subtitle: ""
-      dsDescriptionValue: "Virginia Standards of Learning Test Scores collected by the Virginia Department of Education (VDOE)"
+      dsDescriptionValue: "Percentage of the population with and without health insurance as reported by ACS."
       subject: "Social Sciences (Ex: Education, Politics, Sociology, Economics, Psychology)"
-      productionDate: "2021-11-17"
+      productionDate: "2021-10-28"
       timePeriodCoveredStart: "2015-01-01"
-      timePeriodCoveredEnd: "2021-01-01"
+      timePeriodCoveredEnd: "2019-12-31"
       dataSources:
         - "ACS"
-        - "County Health Rankings"
       author:
         - authorName: "Schroeder, Aaron"
-          authorAffiliation: "Univeristy of Virginia"
-        - authorName: "Charankevich, Hanna"
-          authorAffiliation: "Univeristy of Virginia"
-        - authorName: "Niagra, Bob"
-          authorAffiliation: "Univeristy of Waterloo"
+          authorAffiliation: "University of Virginia"
+        - authorName: "Linehan, Kathryn"
+          authorAffiliation: "University of Virginia"
       datasetContact:
         - datasetContactEmail: "ads7fg@virginia.edu"
           datasetContactName: "Schroeder, Aaron"
   geospatial:
     geographicCoverage:
       country: "United States"
-      state: "Virginia"
+      state: "Virginia, Maryland, District of Columbia"
     geographicUnit:
-      - "State Health District"
+      - "State Health District (VA only)"
       - "County"
+      - "Census Tract"
+      - "Block Group"
 ---
 
 ```{r setup, include=FALSE}
