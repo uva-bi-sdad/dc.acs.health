@@ -17,7 +17,7 @@ dataset_doi <- readLines(here::here("data/dataset_doi"))[1]
 
 ## Code you used to create dataset - LIST BELOW
 
-Ex: dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64: prepare_health_access.R and health_insurance.R
+Ex: dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64: health_insurance.R
 
 
 ```{r data}

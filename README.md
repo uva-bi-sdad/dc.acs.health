@@ -1,3 +1,3 @@
-# YOUR_REPO_NAME Ex) dc.template
+# dc.acs.health
 
-Allows user to easily get YOUR_DATA data from the SDAD Data Commons.  Data can be provided directly or in a file.
+Allows user to easily get health insurance data from the SDAD Data Commons.  Data can be provided directly or in a file.
