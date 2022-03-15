@@ -17,5 +17,24 @@
         "url": "https://www.census.gov/programs-surveys/acs.html"
       }
     ]
+  },
+  "no_health_insurance_19_to_64:no_hlth_ins_pct": {
+    "category": "Health",
+    "measure_table": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64",
+    "full_name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
+    "measure": "no_hlth_ins_pct",
+    "type": "percent",
+    "short_name": "Uninsured population",
+    "long_name": "Percent of population without health insurance",
+    "short_description": "Percent of the population (ages 16-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
+    "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B18135 and C27001I in ACS 2015/2019 5-year estimates.",
+    "statement": "{value} of the population has no health insurance in {features.name}.",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
   }
 }

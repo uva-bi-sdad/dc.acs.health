@@ -1,0 +1,40 @@
+{
+  "name": "dc.acs.health",
+  "data": [
+    {
+      "name": "no_health_insurance_19_to_64",
+      "variables": ["no_hlth_ins_pct", "hlth_ins_pct"],
+      "file": "ncr_cttrbg_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz",
+      "size": 397856,
+      "md5": "c2600bbf5e0a297433c68e559ac02ff7"
+    },
+    {
+      "name": "no_health_insurance_19_to_64",
+      "variables": ["no_hlth_ins_pct", "hlth_ins_pct"],
+      "file": "va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz",
+      "size": 202628,
+      "md5": "9848772e50179691fb5367dbb10c6465"
+    }
+  ],
+  "distributions": {
+    "dataverse": {
+      "id": 55950,
+      "doi": "doi:10.18130/V3/RJ9VPJ",
+      "server": "https://dataverse.lib.virginia.edu/",
+      "data": [
+        {
+          "file": "ncr_cttrbg_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz",
+          "id": 56014,
+          "size": 397856,
+          "md5": "c2600bbf5e0a297433c68e559ac02ff7"
+        },
+        {
+          "file": "va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz",
+          "id": 56013,
+          "size": 202628,
+          "md5": "9848772e50179691fb5367dbb10c6465"
+        }
+      ]
+    }
+  }
+}
